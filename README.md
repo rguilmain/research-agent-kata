@@ -1,6 +1,6 @@
 # Perplexity Chat Interface
 
-This project demonstrates Gradio's OpenAI API chat compatible `load_chat()` interface with Perplexity's Sonar Pro model. Settings use an extensible config
+This project demonstrates Gradio's OpenAI API chat compatible `load_chat()` interface with Perplexity's Sonar Pro model. Settings use an extensible config module.
 
 ## Prerequisites
 
@@ -34,7 +34,7 @@ uv sync
 Start the chat interface:
 
 ```bash
-uv run python research-agent-kata
+uv run research-agent-kata
 ```
 
 The application will launch a web interface in your default browser where you can interact with Perplexity AI.
