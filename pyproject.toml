@@ -1,0 +1,18 @@
+[project]
+name = "research-agent-kata"
+version = "0.1.0"
+description = "Research Agent Kata"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "gradio>=6.1.0",
+    "openai>=2.11.0",
+    "ruff>=0.14.9",
+]
+
+[tool.uv]
+package = true
+
+[project.scripts]
+research-agent-kata = "research_agent_kata.main:main"
