@@ -2,12 +2,12 @@
 Perplexity Sonar Chat Interface
 """
 
-import gradio as gr
 import logging
+
+import gradio as gr
 from perplexity import Perplexity
 
 from .config import settings
-
 
 client = Perplexity(api_key=settings.perplexity_api_key)
 
